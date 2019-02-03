@@ -1,6 +1,6 @@
 # **libpmemobj-js: Persistent Memory Development Kit for JavaScript**
 
-The **Persistent Memory Development Kit for JavaScript\* (JSPMDK)** is a project to provide a Node.js module to store JavaScript objects in persistent memory. One of the goal of the project is to make programming with persistent JavaScript objects feels natural to developer. We have implemented persistent JavaScript classes including PersistentObject, PersistentArray and PersistentArrayBuffer, however they are not fully performance-optimized. Please see our [examples](#Example) and [API document](https://github.com/TianyouLi/jspmdk/blob/master/API-document.md) for details.
+The **Persistent Memory Development Kit for JavaScript\* (libpmemobj-js)** is a project to provide a Node.js module to store JavaScript objects in persistent memory. One of the goal of the project is to make programming with persistent JavaScript objects feels natural to developer. We have implemented persistent JavaScript classes including PersistentObject, PersistentArray and PersistentArrayBuffer, however they are not fully performance-optimized. Please see our [examples](#Example) and [API document](https://github.com/pmem/libpmemobj-js/blob/master/API-document.md) for details.
 
 This module uses the libpmemobj library from the Persistent Memory Development Kit (PMDK). For more information on PMDK, please visit http://pmem.io and https://github.com/pmem/pmdk.
 
@@ -18,13 +18,13 @@ This module uses the libpmemobj library from the Persistent Memory Development K
 ### Get the Codes
 
 ```
-$ git clone https://github.com/TianyouLi/jspmdk.git
-$ cd jspmdk
+$ git clone https://github.com/pmem/libpmemobj-js.git
+$ cd libpmemobj-js
 ```
 
-### Build JSPMDK
+### Build libpmemobj-js
 
-You can build the dependency to PMDK by using our script, then install JSPMDK by npm
+You can build the dependency to PMDK by using our script, then install libpmemobj-js by npm
 
 ```
 $ cd deps
