@@ -37,7 +37,7 @@ $ npm install
 After build, you can run the tests by
 
 ```
-$ mocha ../tests
+$ LD_LIBRARY_PATH=/usr/local/lib mocha ../testsmocha ../tests
 ```
 
 ## Example
