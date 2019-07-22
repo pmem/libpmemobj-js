@@ -14,6 +14,6 @@ sudo ./pmdk/utils/docker/images/install-libfabric.sh
 sudo ./pmdk/utils/docker/images/install-libndctl.sh
 
 # make & make install
-make && sudo make install
+cd pmdk && make && sudo make install
 
 cd ${CUR_DIR}

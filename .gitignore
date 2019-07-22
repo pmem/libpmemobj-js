@@ -52,4 +52,5 @@ Mkfile.old
 dkms.conf
 
 #node modules
-/*/node_modules/*
+/src/node_modules/**
+/src/build/**
