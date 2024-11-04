@@ -1,3 +1,9 @@
+# PROJECT NOT UNDER ACTIVE MANAGEMENT #  
+This project will no longer be maintained by Intel.  
+This project has been identified as having known security escapes.  
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+Intel no longer accepts patches to this project.  
+  
 # **libpmemobj-js: Persistent Memory Development Kit for JavaScript\***
 
 The **Persistent Memory Development Kit for JavaScript\* (libpmemobj-js)** is a project to provide a Node.js module to store JavaScript objects in persistent memory. One of the goal of the project is to make programming with persistent JavaScript objects feels natural to developer. We have implemented persistent JavaScript classes including PersistentObject, PersistentArray and PersistentArrayBuffer, however they are not fully performance-optimized. Please see our [examples](#Example) and [API document](https://github.com/pmem/libpmemobj-js/blob/master/API-document.md) for details.
